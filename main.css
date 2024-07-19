@@ -9,24 +9,3 @@ iframe {
   height: 100%;
   border: none;
 }
-
-/* Small phones */
-@media (max-width: 480px) {
-  iframe {
-    height: 90%;
-  }
-}
-
-/* Medium phones */
-@media (max-width: 768px) {
-  iframe {
-    height: 90%;
-  }
-}
-
-/* Large phones */
-@media (max-width: 1024px) {
-  iframe {
-    height: 95%;
-  }
-}
