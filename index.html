@@ -7,6 +7,15 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-    <iframe src="ooe.pdf" frameborder="0" width="100%" height="950"></iframe>
+    <script>
+      window.onload = function() {
+        const link = document.createElement('a');
+        link.href = 'ooe.pdf';
+        link.download = 'ooe.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
+    </script>
   </body>
 </html>
